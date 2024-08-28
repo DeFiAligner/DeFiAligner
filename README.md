@@ -2,8 +2,9 @@
 
 
 ##  Introduction
-DeFiAligner focuses on detecting inconsistencies in balance change symbolic formulas triggered by DeFi functions with identical ABIs. 
-*Please note that this project only showcases the core code for path generation and symbolic extraction. For utilizing  Large Language Models in detection, refer to available online resources.*
+DeFiAligner is a project to identify inconsistencies between project documentation and on-chain smart contracts (which exist in binary form). 
+
+*Please note that this repository only showcases the core code for path generation and symbolic extraction. For utilizing  Large Language Models in detection, refer to available online resources.*
 
 
 ## Overview
@@ -24,7 +25,7 @@ DeFiAligner focuses on detecting inconsistencies in balance change symbolic form
 │   ├── symbol_simplifier.go
 │   └── token_balance_symbol.go
 ├── README.md
-├── sevm       # Ethereum Virtual Machine supporting Z3 symbols
+├── sevm       # Modified Ethereum Virtual Machine supporting Z3 symbols
 │   ├── common.go
 │   ├── config.json
 │   ├── contract.go
@@ -52,4 +53,4 @@ sudo docker run -it --name test-container DeFiAligner-v1.0
 
 ## Usage
 
-For usage examples, see  `case_test.go`.
+For usage examples, please see  `case_test.go`.
