@@ -7,11 +7,6 @@ DeFiAligner is a project to identify inconsistencies between project documentati
 *Please note that this repository only showcases the core code for path generation and symbolic extraction. For utilizing  Large Language Models in detection, refer to available online resources.*
 
 
-## Documents
-
-https://www.overleaf.com/project/670394bcf9c437690fa1dd7c
-
-
 ## Overview
 
 ```
