@@ -6,6 +6,19 @@ DeFiAligner is a project to identify inconsistencies between project documentati
 
 *Please note that this repository only showcases the core code for path generation and symbolic extraction. For utilizing  Large Language Models in detection, refer to available online resources.*
 
+*Paper: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.7*
+
+```
+@inproceedings{gan2024defialigner,
+  title={DeFiAligner: Leveraging Symbolic Analysis and Large Language Models for Inconsistency Detection in Decentralized Finance},
+  author={Gan, Rundong and Zhou, Liyi and Wang, Le and Qin, Kaihua and Lin, Xiaodong},
+  booktitle={6th Conference on Advances in Financial Technologies (AFT 2024)},
+  pages={7--1},
+  year={2024},
+  organization={Schloss Dagstuhl--Leibniz-Zentrum f{\"u}r Informatik}
+}
+```
+
 
 ## Overview
 
